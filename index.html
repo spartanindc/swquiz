@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Test your knowledge with this Star Wars quiz">
+		
+		<!--Styles-->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="responsive.css" rel="stylesheet" type="text/css">
+		
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Carme|Carrois+Gothic+SC" rel="stylesheet">
+
+		<title>Star Wars Quotations Quiz</title>
+	</head>
+	<body>
+		<header role="banner">
+			
+			<div class="col-4"><h1>Star Wars Quotations Quiz</h1></div>
+
+			<div class="col-8">
+				<ul>
+					<li>Question: <span class="questionTally">0</span>/10</li>
+					<li>Correct Answers: <span class="scoreTally">0</span></li> 
+				</ul>
+			</div>
+
+		</header>
+
+		<main role="main" class="col-12">
+			<section role="Quiz Start" class="quizStart">
+				<h1>Let's find how much you know about famous quotations from Star Wars!</h1>
+				<button type="button" class="startButton">Begin, Padawan!</button>
+			</section>
+			<section role="Quiz Questions" class="quizQuestions"></section>
+
+			<section role="Answers" class="answerForm"></section>
+		</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Holocron.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
