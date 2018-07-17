@@ -9,7 +9,7 @@ const HOLOCRON = [
    correctAnswer: 'Yoda'
 	},
 
-	{	question: 'Who is Leia insulting when she says “Why, you stuck up, half-witted, scruffy-looking, Nerf-herder!”',
+	{	question: 'Who is Princess Leia insulting when she says “Why, you stuck up, half-witted, scruffy-looking, Nerf-herder!”',
 		answers: [
 			'Lando Calrissian',
 			'Han Solo',
